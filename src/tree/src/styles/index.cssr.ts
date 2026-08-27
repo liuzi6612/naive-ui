@@ -23,6 +23,7 @@ const iconSwitchTransitionNode = iconSwitchTransition()
 export default cB('tree', `
   font-size: var(--n-font-size);
   outline: none;
+  width: max-content;
 `, [
   c('ul, li', `
     margin: 0;
